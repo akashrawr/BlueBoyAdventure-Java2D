@@ -1,6 +1,7 @@
 package org.akashdev;
 
 import org.akashdev.entity.Player;
+import org.akashdev.tile.TileManager;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,22 +13,26 @@ public class GamePanel extends JPanel implements Runnable {
     final int originalTileSize = 16; // 16 x 16 tiles
     final int scale = 3;
     public final int tileSize = originalTileSize * scale; // 48 x 48 tile
-    final int maxScreenCol = 16;
-    final int maxScreenRow = 12;
-    final int screenWidth = tileSize * maxScreenCol; // 768 pixels
-    final int screenHeight = tileSize * maxScreenRow; // 576 pixels
+    public final int maxScreenCol = 16;
+    public final int maxScreenRow = 12;
+    public final int screenWidth = tileSize * maxScreenCol; // 768 pixels
+    public final int screenHeight = tileSize * maxScreenRow; // 576 pixels
+
+    // WORLD SETTINGS
+    public final int maxWorldCol = 50;
+    public final int maxWorldRow = 50;
+    public final int worldWidth = tileSize * maxWorldCol;
+    public final int worldHeight = tileSize * maxWorldRow;
 
     //FPS
     int FPS = 60;
 
+    TileManager tileM = new TileManager(this);
     KeyHandler KeyH = new KeyHandler();
     Thread gameThread;
-    Player player = new Player(this,KeyH);
+    public CollisionChecker cChecker = new CollisionChecker(this);
+    public Player player = new Player(this,KeyH);
 
-    // Set Player's default position
-    int playerX = 100;
-    int playerY = 100;
-    int playerSpeed = 4;
     public GamePanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
         this.setBackground(Color.black);
@@ -123,6 +128,7 @@ public class GamePanel extends JPanel implements Runnable {
 
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+        tileM.draw(g2);
         player.draw(g2);
         g2.dispose();
     }
