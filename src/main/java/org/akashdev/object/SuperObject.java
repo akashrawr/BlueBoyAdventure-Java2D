@@ -1,6 +1,7 @@
 package org.akashdev.object;
 
 import org.akashdev.GamePanel;
+import org.akashdev.UtilityTool;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -15,6 +16,7 @@ public class SuperObject {
     public int solidAreaDefaultX = 0;
     public int solidAreaDefaultY = 0;
     public boolean collisionOn = false;
+    UtilityTool uTool = new UtilityTool();
 
     public void draw(Graphics2D g2, GamePanel gp){
 
