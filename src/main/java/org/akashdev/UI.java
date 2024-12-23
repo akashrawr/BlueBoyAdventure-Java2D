@@ -1,14 +1,12 @@
 package org.akashdev;
 
+import org.akashdev.entity.Entity;
 import org.akashdev.object.OBJ_Heart;
-import org.akashdev.object.OBJ_Key;
-import org.akashdev.object.SuperObject;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
-import java.text.DecimalFormat;
 
 public class UI {
 
@@ -38,7 +36,7 @@ public class UI {
         }
 
         // CREATE HUD OBJECT
-        SuperObject heart = new OBJ_Heart(gp);
+        Entity heart = new OBJ_Heart(gp);
         heart_full = heart.image;
         heart_half = heart.image2;
         heart_blank = heart.image3;
@@ -169,6 +167,7 @@ public class UI {
     }
     public void drawPauseScreen(){
 
+        g2.setFont(maruMonica);
         g2.setFont(g2.getFont().deriveFont(Font.PLAIN,80F));
         String text = "PAUSED";
         int x = getXforCenteredText(text);

@@ -1,26 +1,14 @@
 package org.akashdev.object;
 
 import org.akashdev.GamePanel;
+import org.akashdev.entity.Entity;
 
-import javax.imageio.ImageIO;
-import java.io.IOException;
-
-public class OBJ_Chest extends SuperObject {
-
-    GamePanel gp;
+public class OBJ_Chest extends Entity {
 
     public OBJ_Chest(GamePanel gp){
-
-        this.gp = gp;
-
+        super(gp);
         name = "Chest";
+        image = setup("/objects/chest");
 
-        try{
-            image = ImageIO.read(getClass().getResourceAsStream("/objects/chest.png"));
-            uTool.scaleImage(image, gp.tileSize, gp.tileSize);
-        }
-        catch(IOException e){
-            e.printStackTrace();
-        }
     }
 }
