@@ -32,15 +32,7 @@ Your mission is simple: battle monsters, gain experience to grow stronger, colle
 
 ## Screenshots
 
-![Screenshot 2](screenshots/2.png)  
----
 ![Screenshot 3](screenshots/3.png) 
----
-![Screenshot 4](screenshots/4.png) 
----
-![Screenshot 5](screenshots/5.png)  
----
-![Screenshot 6](screenshots/6.png)
 ---
 ![Screenshot 7](screenshots/7.png)
 ---
@@ -48,13 +40,11 @@ Your mission is simple: battle monsters, gain experience to grow stronger, colle
 ---
 ![Screenshot 9](screenshots/9.png) 
 ---
-![Screenshot 10](screenshots/10.png)
----
 ![Screenshot 11](screenshots/11.png)  
----
-![Screenshot 12](screenshots/12.png)  
 ---
 ![Screenshot 13](screenshots/13.png)
 ---
 ![Screenshot 14](screenshots/14.png) 
+---
+![Screenshot 6](screenshots/6.png)
 ---
