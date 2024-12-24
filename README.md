@@ -3,93 +3,86 @@
 <h3> JAVA 2D ACTION RPG </h3> 
 
 ## Installation
-* Download ZIP and Extract "Blue-Boy-Adventure-master" to Desktop.
 
-* Open IntelliJ IDEA and Select Open Project.
+1. Download the ZIP file and extract the "Blue-Boy-Adventure-master" folder to your Desktop.
+2. Open Project in any IDE
+3. Clean and Build Project.
+4. Go to the `src -> main` folder and run the **Main** file.
+5. If required, remember to set up the SDK to ensure proper configuration.
 
-* Choose "Blue-Boy-Adventure-master" folder and Select "Yes" to ReUse Module Files.
+</br >
 
-* At this point, be sure you are opening the root folder (/Blue-Boy-Adventure-master).
+## Special Thanks
 
-* Go src -> main folder -> Run Main
+This game was created using the tutorial and assets generously provided by **RyiSnow**.  
+For more tutorials and resources, visit the [RyiSnow YouTube Channel](https://www.youtube.com/@RyiSnow).
 
-* Lastly don't forget to Setup SDK if needed.
-
-</br > 
+</br >
 
 ## Goal
-Kill monsters! Get stronger! Buy powerful items! Find the dungeon keys! Solve the dungeon puzzle! KILL THE BOSS!
 
-</br > 
+Your objective is simple yet exciting: defeat monsters, level up, acquire powerful items, and embark on a quest to find dungeon keys and solve puzzles. Ultimately, face and defeat the dungeon boss!
+
+</br >
 
 ## Controls
 
-</br > 
+</br >
 
 ![Screenshot 1](screenshots/1.jpg)
 
-</br > 
+</br >
 
 ## Game Mechanics
 
 <h3> Guard </h3>
 
-* You block half the damage!
- 
-<h3> Parry </h3>    
+- Reduce incoming damage by half when you block!
 
-* If you guard in 200 milliseconds before monster's attack, you parry attack!</br > 
-Then you get critical chance for 1 seconds. Critical hits give x2 damage.
+<h3> Parry </h3>
 
-<h3> Ninja </h3>   
+- Timing is key! If you block within 200 milliseconds of a monster's attack, you perform a parry, gaining a critical hit chance for 1 second. Critical hits deal double damage.
 
-* You can cut projectiles with your weapon. But be careful, you have to set the timing well.
-  
-<h3> Survivor </h3> 
+<h3> Ninja </h3>
 
-*  Some of trees, some of walls can be destructible. Choose your weapons intelligently!
+- Slice through projectiles with precision timing using your weapon.
 
-<h3> Pool </h3>  
+<h3> Survivor </h3>
 
-*  You can recover your life/mana and save your progress. But monsters will spawn again.
-  
-<h3> Coin </h3>  
+- Some trees and walls are destructible. Use the right weapon for the task!
 
-* Find the merchant, buy stronger items!
+<h3> Pool </h3>
 
-<h3> Tent </h3>   
+- Recover health/mana and save your progress, but beware: monsters will respawn.
 
-* You sleep until next day.
- 
-<h3> Lantern </h3>  
+<h3> Coin </h3>
 
-*  When it gets dark you will realize how important lantern is.
+- Collect coins and trade with the merchant to upgrade your equipment.
 
-</br > 
+<h3> Tent </h3>
 
-## Screenshots
+- Rest until the next day to restore your energy.
 
-![Screenshot 2](screenshots/2.png)
-![Screenshot 3](screenshots/3.png)
-![Screenshot 4](screenshots/4.png)
-![Screenshot 5](screenshots/5.png)
-![Screenshot 6](screenshots/6.png)
-![Screenshot 7](screenshots/7.png)
-![Screenshot 8](screenshots/8.png)
-![Screenshot 9](screenshots/9.png)
-![Screenshot 10](screenshots/10.png)
-![Screenshot 11](screenshots/11.png)
-![Screenshot 12](screenshots/12.png)
-![Screenshot 13](screenshots/13.png)
-![Screenshot 14](screenshots/14.png)
+<h3> Lantern </h3>
+
+- When night falls, your lantern becomes essential for visibility.
+
+</br >
+
+## Screenshots </br >
+
+![Screenshot 2](screenshots/2.png)  </br >
+![Screenshot 3](screenshots/3.png)  </br >
+![Screenshot 4](screenshots/4.png)  </br >
+![Screenshot 5](screenshots/5.png)  </br >
+![Screenshot 6](screenshots/6.png)  </br >
+![Screenshot 7](screenshots/7.png)  </br >
+![Screenshot 8](screenshots/8.png)  </br >
+![Screenshot 9](screenshots/9.png)  </br >
+![Screenshot 10](screenshots/10.png)  </br >
+![Screenshot 11](screenshots/11.png)  </br >
+![Screenshot 12](screenshots/12.png)  </br >
+![Screenshot 13](screenshots/13.png)  </br >
+![Screenshot 14](screenshots/14.png) </hr >
 
 
-## Followed Steps
-
-</br > 
-
-## Special Thanks
-
-The tutorial and all of assets are made by RyiSnow.
-
-* <a href="https://www.youtube.com/@RyiSnow"><p>Check RyiSnow Youtube Channel</p></a>
