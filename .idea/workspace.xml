@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46ea1209-aadb-4fc5-80e1-6421afd52259" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/object/OBJ_Heart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/maps/map01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/maps/world01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/maps/worldV2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/objects/chest (OLD).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/floor01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/grass00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/grass01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/hut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/road12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/sand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/table01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tiles/water13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/AssetSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/AssetSetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/CollisionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/EventRect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/EventRect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/UtilityTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/UtilityTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/entity/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/entity/NPC_OldMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/NPC_OldMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/monster/MON_GreenSlime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monster/MON_GreenSlime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/object/OBJ_Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/OBJ_Boots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/object/OBJ_Chest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/OBJ_Chest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/object/OBJ_Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/OBJ_Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/object/OBJ_Heart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/object/OBJ_Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/OBJ_Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/akashdev/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/TileManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;akashrawr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/akashrawr/Java2DGame.git&quot;,
+    &quot;accountId&quot;: &quot;b5fe166e-8ab0-4eb6-b333-8a8b47da32cc&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qed0CQseTdQogteT8jRcUgCCCf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/akash/OneDrive/Desktop/Projects/SMS-Springboot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46ea1209-aadb-4fc5-80e1-6421afd52259" name="Changes" comment="" />
+      <created>1735026752359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735026752359</updated>
+      <workItem from="1735026755771" duration="327000" />
+      <workItem from="1735027100954" duration="743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
