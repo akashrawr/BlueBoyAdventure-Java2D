@@ -1,6 +1,6 @@
 # Blue Boy Adventure
 
-This is a Java 2D Action RPG.
+This is a Java 2D Action RPG made in intellij.
 
 ## Instructions
 
